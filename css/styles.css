@@ -8,20 +8,31 @@
 /* buckground team #F5F4FA; */
 
 :root {
-  --accent-color: #2196f3;
-  --text-color: #212121;
+  /* fonts */
+  --mein-txt: 'Roboto';
+  --secondors-txt: 'Raleway';
+
+  /* text color */
   --mein-text-color: #757575;
-  --secondory-color: #ffffff;
+  --text-color: #212121;
   --footer-secondori-color: rgba(255, 255, 255, 0.6);
-  --hero-background-color: #2f303a;
+  --logo-txt-color: #000000;
+  --white-txt-color: #ffffff;
+
+  /* bg color */
+  --hero-bg-color: #2f303a;
+  --bg-team: #f5f4fa;
+  --white-color: #ffffff;
+
+  /* others */
+  --accent-color: #2196f3;
   --button-accent: #188ce8;
-  --background-team: #f5f4fa;
 }
 
 body {
   color: var(--mein-text-color);
-  background-color: var(--secondory-color);
-  font-family: 'Roboto', sans-serif;
+  background-color: var(--white-color);
+  font-family: var(--mein-txt), sans-serif;
   font-size: 14px;
   letter-spacing: 0.03em;
 }
@@ -54,7 +65,7 @@ body {
 
 .nav .logo,
 .logo-footer {
-  color: var(--text-color);
+  color: var(--logo-txt-color);
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -88,10 +99,10 @@ body {
 /* hero */
 
 .hero {
-  background: var(--hero-background-color);
+  background: var(--hero-bg-color);
 }
 .hero-title {
-  color: var(--secondory-color);
+  color: var(--white-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
@@ -101,7 +112,7 @@ body {
 }
 
 .hero-button {
-  color: var(--secondory-color);
+  color: var(--white-color);
   background-color: var(--accent-color);
   font-family: inherit;
   cursor: pointer;
@@ -150,7 +161,7 @@ body {
 /* team */
 
 .team {
-  background-color: var(--background-team);
+  background-color: var(--bg-team);
 }
 
 .team-title {
@@ -174,7 +185,7 @@ body {
 /* footer */
 
 .logo-footer {
-  color: var(--secondory-color);
+  color: var(--white-color);
 }
 
 .contact {
@@ -182,11 +193,11 @@ body {
 }
 
 .footer {
-  background-color: var(--hero-background-color);
+  background-color: var(--hero-bg-color);
 }
 
 .contact .address-studio {
-  color: var(--secondory-color);
+  color: var(--white-color);
   line-height: 1.7;
 }
 
@@ -211,7 +222,7 @@ body {
 .filter .button:focus,
 .filter .button:hover {
   background-color: var(--accent-color);
-  color: var(--secondory-color);
+  color: var(--white-color);
 }
 
 .project-link {
