@@ -22,7 +22,7 @@
   /* bg color */
   --hero-bg-color: #2f303a;
   --bg-team: #f5f4fa;
-  --white-color: #ffffff;
+  --white-bg-color: #ffffff;
 
   /* others */
   --accent-color: #2196f3;
@@ -31,10 +31,9 @@
 
 body {
   color: var(--mein-text-color);
-  background-color: var(--white-color);
+  background-color: var(--white-bg-color);
   font-family: var(--mein-txt), sans-serif;
   font-size: 14px;
-  letter-spacing: 0.03em;
 }
 
 .link {
@@ -70,6 +69,7 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
+  letter-spacing: 0.03em;
 }
 
 .logo-item {
@@ -102,7 +102,7 @@ body {
   background: var(--hero-bg-color);
 }
 .hero-title {
-  color: var(--white-color);
+  color: var(--white-txt-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
@@ -112,7 +112,7 @@ body {
 }
 
 .hero-button {
-  color: var(--white-color);
+  color: var(--white-txt-color);
   background-color: var(--accent-color);
   font-family: inherit;
   cursor: pointer;
@@ -141,11 +141,13 @@ body {
   font-size: 14px;
   font-weight: 700;
   line-height: 1.1;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
 .services .text {
   line-height: 1.7;
+  letter-spacing: 0.03em;
 }
 
 /* work */
@@ -169,23 +171,26 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
+  letter-spacing: 0.03em;
   text-align: center;
 }
 .team .title {
   color: var(--text-color);
   font-weight: 500;
   font-size: 16px;
+  letter-spacing: 0.03em;
   line-height: 1.2;
 }
 
 .team .text {
   font-size: 16px;
   line-height: 1.2;
+  letter-spacing: 0.03em;
 }
 /* footer */
 
 .logo-footer {
-  color: var(--white-color);
+  color: var(--white-txt-color);
 }
 
 .contact {
@@ -197,13 +202,15 @@ body {
 }
 
 .contact .address-studio {
-  color: var(--white-color);
+  color: var(--white-txt--color);
   line-height: 1.7;
+  letter-spacing: 0.03em;
 }
 
 .contact .address-contact {
   color: var(--footer-secondori-color);
   line-height: 1.7;
+  letter-spacing: 0.03em;
 }
 
 /* portfolio.html */
@@ -217,12 +224,13 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
+  letter-spacing: 0.03em;
   text-align: center;
 }
 .filter .button:focus,
 .filter .button:hover {
   background-color: var(--accent-color);
-  color: var(--white-color);
+  color: var(--white-txt-color);
 }
 
 .project-link {
@@ -240,4 +248,5 @@ body {
   color: var(--mein-text-color);
   font-size: 16px;
   line-height: 1.9;
+  letter-spacing: 0.03em;
 }
