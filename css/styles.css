@@ -85,7 +85,6 @@ body {
 .link.contact {
   color: var(--mein-text-color);
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.02em;
 }
@@ -138,7 +137,6 @@ body {
 
 /* services */
 .services .title {
-  font-size: 14px;
   font-weight: 700;
   line-height: 1.1;
   letter-spacing: 0.03em;
