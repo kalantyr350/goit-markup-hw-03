@@ -27,6 +27,7 @@
   /* others */
   --accent-color: #2196f3;
   --button-accent: #188ce8;
+  --border-hero-cl: #ececec;
 }
 
 body {
@@ -71,18 +72,19 @@ h4 {
 /* index.html */
 
 .conteiner {
-  outline: 1px solid tomato;
-  width: 1230px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-right: auto;
   margin-left: auto;
+
+  outline: 1px solid tomato;
 }
 
 /* header */
 
 .header {
-  border-bottom: 1px solid #ececec;
+  border-bottom: 1px solid var(--border-hero-cl);
 }
 
 .nav .logo,
@@ -220,6 +222,7 @@ h4 {
 }
 
 .services-item {
+  width: 270px;
   margin-right: 30px;
   flex-basis: calc((100% - 90px) / 4);
 }
@@ -266,11 +269,14 @@ h4 {
 
 .team {
   padding-top: 94px;
+  padding-bottom: 94px;
 
   background-color: var(--bg-team);
 }
 
 .team-title {
+  margin-bottom: 50px;
+
   color: var(--text-color);
   font-weight: 700;
   font-size: 36px;
@@ -283,7 +289,24 @@ h4 {
   display: flex;
 }
 
+.time-item {
+  width: 270px;
+
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.time-item:not(:last-child) {
+  margin-right: 30px;
+}
+
 .team .title {
+  /* display: inline-block; */
+  margin-top: 30px;
+  margin-bottom: 10px;
+  padding-right: ;
+
   color: var(--text-color);
   font-weight: 500;
   font-size: 16px;
@@ -292,6 +315,8 @@ h4 {
 }
 
 .team .text {
+  margin-bottom: 30px;
+
   font-size: 16px;
   line-height: 1.2;
   letter-spacing: 0.03em;
