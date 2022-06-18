@@ -30,6 +30,8 @@
 }
 
 body {
+  width: 1600px;
+  margin: 0;
   color: var(--mein-text-color);
   background-color: var(--white-bg-color);
   font-family: var(--mein-txt), sans-serif;
@@ -40,7 +42,14 @@ body {
   text-decoration: none;
 }
 
-.list {
+.list,
+p,
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
 
@@ -60,6 +69,16 @@ body {
   position: absolute;
 }
 /* index.html */
+
+.conteiner {
+  outline: 1px solid tomato;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 /* header */
 
 .nav .logo,
@@ -72,17 +91,52 @@ body {
   letter-spacing: 0.03em;
 }
 
+.logo.link {
+  margin-right: 93px;
+}
+
 .logo-item {
   color: var(--accent-color);
 }
+
+/* header nav */
+
+.menu-nav,
+.list-contacts,
+.header-conteiner,
+.nav,
+.logo.link {
+  display: flex;
+  align-self: center;
+}
+
+.menu-nav > .item:not(:last-child),
+.list-contacts > .item:not(:last-child) {
+  margin-right: 50px;
+}
+
 .nav-link {
+  display: inline-block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
   color: var(--text-color);
   font-weight: 500;
   line-height: 1.1;
   letter-spacing: 0.02em;
 }
 
+/* header contact */
+
+.list-contacts {
+  margin-left: auto;
+}
+
 .link.contact {
+  display: inline-block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
   color: var(--mein-text-color);
   font-weight: 500;
   line-height: 1.1;
@@ -101,6 +155,9 @@ body {
   background: var(--hero-bg-color);
 }
 .hero-title {
+  width: 696px;
+  margin-right: auto;
+  margin-left: auto;
   color: var(--white-txt-color);
   font-weight: 900;
   font-size: 44px;
@@ -111,6 +168,15 @@ body {
 }
 
 .hero-button {
+  /* display: block; */
+  width: 200px;
+  height: 50px;
+  margin-top: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  border: 0;
+  padding: 10px 30px;
+
   color: var(--white-txt-color);
   background-color: var(--accent-color);
   font-family: inherit;
@@ -122,6 +188,7 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+  border-radius: 4px;
 }
 
 .hero-button:hover,
@@ -136,6 +203,11 @@ body {
 }
 
 /* services */
+
+.services-flex .list {
+  display: flex;
+}
+
 .services .title {
   font-weight: 700;
   line-height: 1.1;
