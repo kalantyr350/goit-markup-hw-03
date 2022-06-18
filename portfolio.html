@@ -16,143 +16,155 @@
   </head>
   <body>
     <!--header-->
-    <header>
-      <nav class="nav">
-        <a class="logo link" href="./index.html"><span class="logo-item">Web</span>Studio</a>
-        <ul class="list">
-          <li><a class="nav-link link" href="./index.html">Студия</a></li>
-          <li><a class="nav-link link current" href="./portfolio.html">Портфолио</a></li>
-          <li><a class="nav-link link" href="./index.html">Контакты</a></li>
+    <header class="header">
+      <div class="conteiner header-conteiner">
+        <nav class="nav">
+          <a class="logo link" href="./index.html"><span class="logo-item">Web</span>Studio</a>
+          <ul class="list menu-nav">
+            <li class="item">
+              <a class="nav-link link" href="./index.html">Студия</a>
+            </li>
+            <li class="item">
+              <a class="nav-link link current" href="./portfolio.html">Портфолио</a>
+            </li>
+            <li class="item"><a class="nav-link link" href="./index.html">Контакты</a></li>
+          </ul>
+        </nav>
+        <ul class="list list-contacts">
+          <li class="item">
+            <a class="link contact" href="mail:info@devstudio.com">info@devstudio.com</a>
+          </li>
+          <li class="item">
+            <a class="link contact" href="tel:+380961111111">+38 096 111 11 11</a>
+          </li>
         </ul>
-      </nav>
-      <ul class="list">
-        <li><a class="link contact" href="mail:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a class="link contact" href="tel:+380961111111">+38 096 111 11 11</a></li>
-      </ul>
+      </div>
     </header>
 
     <!-- Приклади робот -->
     <main>
-      <section class="filter">
-        <h1 class="visualli-hedden">наши работы</h1>
-        <ul class="list">
-          <li><button class="button" type="button">Все</button></li>
-          <li><button class="button" type="button">Веб-сайты</button></li>
-          <li><button class="button" type="button">Приложения</button></li>
-          <li><button class="button" type="button">Дизайн</button></li>
-          <li><button class="button" type="button">Маркетинг</button></li>
-        </ul>
+      <section class="filter section">
+        <div class="conteiner">
+          <h1 class="visualli-hedden">наши работы</h1>
+          <ul class="filter-list list">
+            <li class="filter-item"><button class="button" type="button">Все</button></li>
+            <li class="filter-item"><button class="button" type="button">Веб-сайты</button></li>
+            <li class="filter-item"><button class="button" type="button">Приложения</button></li>
+            <li class="filter-item"><button class="button" type="button">Дизайн</button></li>
+            <li class="filter-item"><button class="button" type="button">Маркетинг</button></li>
+          </ul>
 
-        <ul class="project list">
-          <li>
-            <a class="project-link" href="./portfolio.html"
-              ><img
-                src="./images/portfolio-1.jpg"
-                alt="Веб-сайт Технокряк"
-                width="370"
-                height="294"
-              />
-              <h2 class="title">Технокряк</h2>
-              <p class="text">Веб-сайт</p>
-            </a>
-          </li>
-          <li>
-            <a class="project-link" href="./portfolio.html"
-              ><img
-                src="./images/portfolio-2.jpg"
-                alt="Дизайн Постер New Orlean vs Golden Star"
-                width="370"
-                height="294"
-              />
-              <h2 class="title">Постер New Orlean vs Golden Star</h2>
-              <p class="text">Дизайн</p>
-            </a>
-          </li>
-          <li>
-            <a class="project-link" href="./portfolio.html"
-              ><img
-                src="./images/portfolio-3.jpg"
-                alt="Приложение Ресторан Seafood"
-                width="370"
-                height="294"
-              />
-              <h2 class="title">Ресторан Seafood</h2>
-              <p class="text">Приложение</p>
-            </a>
-          </li>
-          <li>
-            <a class="project-link" href="./portfolio.html"
-              ><img
-                src="./images/portfolio-4.jpg"
-                alt="Маркетинг Проект Prime"
-                width="370"
-                height="294"
-              />
-              <h2 class="title">Проект Prime</h2>
-              <p class="text">Маркетинг</p>
-            </a>
-          </li>
-          <li>
-            <a class="project-link" href="./portfolio.html"
-              ><img
-                src="./images/portfolio-5.jpg"
-                alt="Приложение Проект Boxes"
-                width="370"
-                height="294"
-              />
-              <h2 class="title">Проект Boxes</h2>
-              <p class="text">Приложение</p>
-            </a>
-          </li>
-          <li>
-            <a class="project-link" href="./portfolio.html"
-              ><img
-                src="./images/portfolio-6.jpg"
-                alt="Веб-сайт Inspiration has no Border"
-                width="370"
-                height="294"
-              />
-              <h2 class="title">Inspiration has no Borders</h2>
-              <p class="text">Веб-сайт</p>
-            </a>
-          </li>
-          <li>
-            <a class="project-link" href="./portfolio.html"
-              ><img
-                src="./images/portfolio-7.jpg"
-                alt="Дизайн Издание Limited Edition"
-                width="370"
-                height="294"
-              />
-              <h2 class="title">Издание Limited Edition</h2>
-              <p class="text">Дизайн</p>
-            </a>
-          </li>
-          <li>
-            <a class="project-link" href="./portfolio.html"
-              ><img
-                src="./images/portfolio-8.jpg"
-                alt="Маркетинг Проект LAB"
-                width="370"
-                height="294"
-              />
-              <h2 class="title">Проект LAB</h2>
-              <p class="text">Маркетинг</p>
-            </a>
-          </li>
-          <li>
-            <a class="project-link" href="./portfolio.html"
-              ><img
-                src="./images/portfolio-9.jpg"
-                alt="Приложение Growing Business"
-                width="370"
-                height="294"
-              />
-              <h2 class="title">Growing Business</h2>
-              <p class="text">Приложение</p>
-            </a>
-          </li>
-        </ul>
+          <ul class="project list">
+            <li>
+              <a class="project-link" href="./portfolio.html"
+                ><img
+                  src="./images/portfolio-1.jpg"
+                  alt="Веб-сайт Технокряк"
+                  width="370"
+                  height="294"
+                />
+                <h2 class="title">Технокряк</h2>
+                <p class="text">Веб-сайт</p>
+              </a>
+            </li>
+            <li>
+              <a class="project-link" href="./portfolio.html"
+                ><img
+                  src="./images/portfolio-2.jpg"
+                  alt="Дизайн Постер New Orlean vs Golden Star"
+                  width="370"
+                  height="294"
+                />
+                <h2 class="title">Постер New Orlean vs Golden Star</h2>
+                <p class="text">Дизайн</p>
+              </a>
+            </li>
+            <li>
+              <a class="project-link" href="./portfolio.html"
+                ><img
+                  src="./images/portfolio-3.jpg"
+                  alt="Приложение Ресторан Seafood"
+                  width="370"
+                  height="294"
+                />
+                <h2 class="title">Ресторан Seafood</h2>
+                <p class="text">Приложение</p>
+              </a>
+            </li>
+            <li>
+              <a class="project-link" href="./portfolio.html"
+                ><img
+                  src="./images/portfolio-4.jpg"
+                  alt="Маркетинг Проект Prime"
+                  width="370"
+                  height="294"
+                />
+                <h2 class="title">Проект Prime</h2>
+                <p class="text">Маркетинг</p>
+              </a>
+            </li>
+            <li>
+              <a class="project-link" href="./portfolio.html"
+                ><img
+                  src="./images/portfolio-5.jpg"
+                  alt="Приложение Проект Boxes"
+                  width="370"
+                  height="294"
+                />
+                <h2 class="title">Проект Boxes</h2>
+                <p class="text">Приложение</p>
+              </a>
+            </li>
+            <li>
+              <a class="project-link" href="./portfolio.html"
+                ><img
+                  src="./images/portfolio-6.jpg"
+                  alt="Веб-сайт Inspiration has no Border"
+                  width="370"
+                  height="294"
+                />
+                <h2 class="title">Inspiration has no Borders</h2>
+                <p class="text">Веб-сайт</p>
+              </a>
+            </li>
+            <li>
+              <a class="project-link" href="./portfolio.html"
+                ><img
+                  src="./images/portfolio-7.jpg"
+                  alt="Дизайн Издание Limited Edition"
+                  width="370"
+                  height="294"
+                />
+                <h2 class="title">Издание Limited Edition</h2>
+                <p class="text">Дизайн</p>
+              </a>
+            </li>
+            <li>
+              <a class="project-link" href="./portfolio.html"
+                ><img
+                  src="./images/portfolio-8.jpg"
+                  alt="Маркетинг Проект LAB"
+                  width="370"
+                  height="294"
+                />
+                <h2 class="title">Проект LAB</h2>
+                <p class="text">Маркетинг</p>
+              </a>
+            </li>
+            <li>
+              <a class="project-link" href="./portfolio.html"
+                ><img
+                  src="./images/portfolio-9.jpg"
+                  alt="Приложение Growing Business"
+                  width="370"
+                  height="294"
+                />
+                <h2 class="title">Growing Business</h2>
+                <p class="text">Приложение</p>
+              </a>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
 
