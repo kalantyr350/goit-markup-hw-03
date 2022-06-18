@@ -294,12 +294,11 @@ h4 {
   margin-right: 30px;
 }
 
-.team .title {
+.team-list .title {
   margin-top: 30px;
   margin-bottom: 10px;
-  padding-right: auto;
-  padding-left: auto;
 
+  text-align: center;
   color: var(--text-color);
   font-weight: 500;
   font-size: 16px;
@@ -310,6 +309,7 @@ h4 {
 .team .text {
   margin-bottom: 30px;
 
+  text-align: center;
   font-size: 16px;
   line-height: 1.2;
   letter-spacing: 0.03em;
@@ -325,6 +325,9 @@ h4 {
 }
 
 .footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
   background-color: var(--hero-bg-color);
 }
 
