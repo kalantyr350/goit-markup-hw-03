@@ -72,7 +72,7 @@ h4 {
 
 .conteiner {
   outline: 1px solid tomato;
-  width: 1200px;
+  width: 1230px;
   padding-left: 15px;
   padding-right: 15px;
   margin-right: auto;
@@ -80,6 +80,10 @@ h4 {
 }
 
 /* header */
+
+.header {
+  border-bottom: 1px solid #ececec;
+}
 
 .nav .logo,
 .logo-footer {
@@ -155,9 +159,12 @@ h4 {
   background: var(--hero-bg-color);
 }
 .hero-title {
+  display: block;
   width: 696px;
   margin-right: auto;
   margin-left: auto;
+  margin-bottom: 30px;
+
   color: var(--white-txt-color);
   font-weight: 900;
   font-size: 44px;
@@ -171,7 +178,6 @@ h4 {
   /* display: block; */
   width: 200px;
   height: 50px;
-  margin-top: 30px;
   margin-right: auto;
   margin-left: auto;
   border: 0;
@@ -204,11 +210,26 @@ h4 {
 
 /* services */
 
-.services-flex .list {
+.services {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.services-flex .services-list {
   display: flex;
 }
 
+.services-item {
+  margin-right: 30px;
+  flex-basis: calc((100% - 90px) / 4);
+}
+
+.services-item:last-child {
+  margin-right: 0;
+}
+
 .services .title {
+  margin-bottom: 10px;
   font-weight: 700;
   line-height: 1.1;
   letter-spacing: 0.03em;
@@ -222,7 +243,13 @@ h4 {
 
 /* work */
 
+.work {
+  padding-bottom: 94px;
+}
+
 .work-title {
+  margin-bottom: 50px;
+
   color: var(--text-color);
   font-weight: 700;
   font-size: 36px;
@@ -230,9 +257,16 @@ h4 {
   text-align: center;
 }
 
+.work-list {
+  display: flex;
+  justify-content: space-between;
+}
+
 /* team */
 
 .team {
+  padding-top: 94px;
+
   background-color: var(--bg-team);
 }
 
@@ -244,6 +278,11 @@ h4 {
   letter-spacing: 0.03em;
   text-align: center;
 }
+
+.team-list {
+  display: flex;
+}
+
 .team .title {
   color: var(--text-color);
   font-weight: 500;
