@@ -44,6 +44,12 @@ body {
   text-decoration: none;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 .list,
 p,
 h1,
@@ -423,8 +429,6 @@ h4 {
 }
 
 .project-link {
-  background-color: tomato;
-
   text-decoration: none;
 }
 
